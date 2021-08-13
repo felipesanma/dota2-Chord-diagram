@@ -7,7 +7,7 @@ Created on Fri Aug 13 14:58:21 2021
 
 from flask import Flask
 
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__, static_folder='static', static_url_path='')
 
 
 @app.route('/dota')
